@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Editor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="heading">Text Editor</h1>
+  <hr class="line">
+  <span class="labelText">Enter the Text Below</span>
+  <br><br>
+  <textarea id="targetText" placeholder="Enter the text here..."></textarea>
+  <br><br>
+  <hr class="line">
+  <br>
+  <div id="stats" class="labelText"><span class="labelText">Words count: 0 | Characters count (including spaces): 0</span></div>
+  <br>
+  <hr class="line">
+  <br>
+  <button onclick="downloadFile()" class="labelText" id="btn-1">Downloaad as a Text File</button>
+  <button onclick="copyToClipBoard()" class="labelText" id="btn-2">Copy Text</button>
+  <button onclick="clearText()" class="labelText" id="btn-3">Clear Text</button>
+  <button onclick="window.location.href='https://github.com/tharela-1/Simple-Text-Editor'" class="labelText" id="btn-4">Source Code</button>
+  <script src="script.js"></script>
+</body>
+</html>
