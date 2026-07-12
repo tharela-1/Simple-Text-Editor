@@ -6,6 +6,8 @@ No Backend and Databases are used.
 Deployment: This project has been deployed on Netlify.  
 Deployment Link: https://simple-text-editor-a1b4.netlify.app/  
 
+Project Timeline: Jul 12, 2026  
+
 # Features
 1. Users can copy the content that they type to clipboard
 2. Users can download the typed content into a text file
